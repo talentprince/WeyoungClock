@@ -1,6 +1,6 @@
 <appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
     android:initialLayout="@layout/clock"
     android:minHeight="72dp"
-    android:minWidth="294dp"
-    android:updatePeriodMillis="1000" >
-</appwidget-provider>
+    android:minWidth="144dp"
+    android:previewImage="@drawable/preview"
+    android:updatePeriodMillis="0" ></appwidget-provider>

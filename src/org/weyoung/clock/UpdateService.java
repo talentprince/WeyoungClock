@@ -62,6 +62,7 @@ public class UpdateService extends Service {
 	private BroadcastReceiver boroadcastReceiver = new BroadcastReceiver() {
 		@Override
 		public void onReceive(Context acontext, Intent intent) {
+			LogUtils.i(TAG, "service brocast to update UI");
 			// update clock when time goes
 			updateUI();
 		}
